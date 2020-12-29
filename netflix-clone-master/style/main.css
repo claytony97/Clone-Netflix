@@ -1,0 +1,213 @@
+:root{
+    --vermelho:#E50914;
+    --preta:#141414;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+/*elementos base*/
+body{
+   background: black;
+   font-family: 'Arial', Times, serif;
+   color:white;
+}
+
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.clear{ clear: both;}
+
+
+
+header{
+    background: black;
+    padding: 12px 0;
+}
+
+/*
+menu header
+
+*/
+
+
+.header-left{
+    float: left ;
+}
+
+.header-left img{
+    max-width: 120px;
+}
+
+.menu-header{
+position: relative;
+top:-25px;
+display: inline-block;
+margin-left: 30px;
+}
+
+.menu-header li{
+    font-size: 14px;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.menu-header a{
+color : white;
+text-decoration: none;
+font-size: 14px;
+}
+
+
+.header-right  {
+margin-top: +25px ;
+float: right;
+
+}
+
+.search,
+.notificacao{
+    display: inline-block;
+}
+  .notificacao{
+position: relative;
+
+  }
+
+.circle-notificacao{
+  position: absolute;  
+  right: 0;
+  top: -20px;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px ;
+  background:#e50914 ;
+  text-align: center;
+  vertical-align: 20px;
+}
+
+
+.header-right i{
+ margin: 0 10px;
+cursor: pointer;
+color: white;
+font-size: 18px;
+font-weight: bold;
+
+}
+
+.digi img{
+    margin-left:85px;
+    margin-top: 20px;
+}
+.header-right a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+header nav a:hover{
+    color:#fff;
+}
+
+/*filme principal*/
+.filme-principal{
+    font-size:16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('../img/capa-house.jpg');
+
+    height: 900px;
+    background-size:cover;
+ 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 10px;
+	  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2vw;
+	
+}
+
+
+.filme-principal .titulo{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border:none;
+    color: white;
+    border-radius: 25px;
+	
+    padding:15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color:white;
+    color:black;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+
+.carrosel-filmes{
+    margin-top:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
